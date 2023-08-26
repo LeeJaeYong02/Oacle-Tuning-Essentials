@@ -43,4 +43,5 @@ ROOT 암호 설정<br/>
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/f7977737-ef10-491e-8836-0ceb258755e9)
 
 ROOT 로그인<br/>
-![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/030f7ba5-2923-4479-9e88-75693e0587d0)
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/d51e82d0-fd5c-481e-b12e-1c1eee1a18e6)
+
