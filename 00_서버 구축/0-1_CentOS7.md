@@ -51,4 +51,18 @@ ROOT 로그인<br/>
 
 [filezilla-3.62.0-installer_huC-sY1.zip](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/files/12445123/filezilla-3.62.0-installer_huC-sY1.zip)
 
+### IP 세팅 및 확인
+
+vi를 이용하여 /etc/sysconfig/network-scripts/ifcfg-ens33 설정
+
+BOOTPROTO의 값을 static로 변경
+
+IPADDR= 사용할 IP주소
+NETMASK =서브넷 마스크
+GATEWAY= 게이트웨어 주소
+ONBOOT= yes
+
+속성 추가
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/b6741a48-b0b3-493c-9a26-0753395c5421)
 
