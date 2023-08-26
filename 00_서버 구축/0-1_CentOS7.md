@@ -67,3 +67,11 @@ ONBOOT= yes <br/>
 
 재부팅 후 ip addr 커맨드로 ip 확인
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/e264fa2a-83d0-474c-846a-3f9231cf1b11)
+
+세션 세팅 & 접속
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/dbd64044-657b-4672-9aaf-fc1a14a488f3)
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/5f093638-5693-4a5e-b231-78ed05b4a149)
+
+
