@@ -45,3 +45,10 @@ ROOT 암호 설정<br/>
 ROOT 로그인<br/>
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/d51e82d0-fd5c-481e-b12e-1c1eee1a18e6)
 
+## FileZilla Connect
+
+설치 파일 <br/>
+
+[filezilla-3.62.0-installer_huC-sY1.zip](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/files/12445123/filezilla-3.62.0-installer_huC-sY1.zip)
+
+
