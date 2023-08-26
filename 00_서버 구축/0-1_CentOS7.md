@@ -57,10 +57,10 @@ vi를 이용하여 /etc/sysconfig/network-scripts/ifcfg-ens33 설정
 
 BOOTPROTO의 값을 static로 변경
 
-IPADDR= 사용할 IP주소
-NETMASK =서브넷 마스크
-GATEWAY= 게이트웨어 주소
-ONBOOT= yes
+IPADDR= 사용할 IP주소 <br/>
+NETMASK =서브넷 마스크 <br/>
+GATEWAY= 게이트웨어 주소 <br/>
+ONBOOT= yes <br/>
 
 속성 추가
 
