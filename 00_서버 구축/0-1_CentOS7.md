@@ -66,3 +66,6 @@ ONBOOT= yes
 
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/b6741a48-b0b3-493c-9a26-0753395c5421)
 
+
+재부팅 후 ip addr 커맨드로 ip 확인
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/e264fa2a-83d0-474c-846a-3f9231cf1b11)
