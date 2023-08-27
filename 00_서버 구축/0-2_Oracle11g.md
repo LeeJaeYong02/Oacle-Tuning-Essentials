@@ -80,6 +80,7 @@ export PATH=$PATH:$ORACLE_HOME/bin
 
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/97d6d4af-a0bc-49d4-9082-cd835bfb8bc7)
 
+### 오라클 실행
 
 ```
 [root@localhost admin]# /etc/init.d/oracle-xe start
