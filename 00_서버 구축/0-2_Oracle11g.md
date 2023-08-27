@@ -78,6 +78,9 @@ export PATH=$PATH:$ORACLE_HOME/bin
 [root@localhost admin]# vi tnsnames.ora
 ```
 
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/97d6d4af-a0bc-49d4-9082-cd835bfb8bc7)
+
+
 ```
 [root@localhost admin]# /etc/init.d/oracle-xe start
 
