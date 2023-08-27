@@ -1,4 +1,5 @@
 Data Grip에서 실행이 안되서 sqlplus에서 실행함.
+
 ```
 [root@localhost ~]# su - oracle
 마지막 로그인: 일  8월 27 16:36:17 KST 2023
