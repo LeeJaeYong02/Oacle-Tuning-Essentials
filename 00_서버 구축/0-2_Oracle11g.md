@@ -119,3 +119,5 @@ SQL> select 1 from dual;
 ----------
          1
 ```
+
+참고 https://seul96.tistory.com/419
