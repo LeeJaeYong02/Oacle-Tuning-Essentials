@@ -60,3 +60,10 @@ export PATH=$PATH:$ORACLE_HOME/bin
 ```
 
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/4f965642-56b4-4e6a-a5c9-1b35ae3b4c7c)
+
+```
+[root@localhost Disk1]# cd /etc/init.d/
+[root@localhost init.d]# ./oracle-xe configure
+```
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/3cae5445-ab20-4d26-8874-ee53f5a01f17)
