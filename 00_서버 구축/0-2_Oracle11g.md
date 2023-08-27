@@ -14,7 +14,6 @@
 ### root 계정 접속 후
 
 ```
-
 [root@localhost ~]# yum -y install compat-libstdc++-33.x86_64 binutils elfutils-libelf elfutils-libelf-devel
 [root@localhost ~]# yum -y install glibc glibc-common glibc-devel glibc-headers gcc gcc-c++ libaio-devel
 [root@localhost ~]# yum -y install libaio libgcc libstdc++ libstdc++ make sysstat unixODBC unixODBC-devel
@@ -22,5 +21,34 @@
 [root@localhost ~]# yum -y install compat-libstdc++-33.x86_64 binutils elfutils-libelf elfutils-libelf-devel
 [root@localhost ~]# yum install binutils compat-libcap1 compat-libstdc++-33 gcc gcc-c++ glibc glibc-devel ksh libgcc libstdc++ [root@localhost ~]# libstdc++-devel libaio libaio-devel make sysstat
 -> y 입력
+```
+
+## 2. Oracle 계정 생성
+
+### 유저 생성 및 권한 설정
 
 ```
+[root@localhost ~]# groupadd dba
+[root@localhost ~]# useradd -g dba oracle
+[root@localhost ~]# passwd oracle
+[root@localhost ~]# mkdir -p /u01/app/oracle
+[root@localhost ~]# chown -R oracle:dba /u01
+[root@localhost ~]# chmod -R 775 /u01
+```
+
+### 환경변수 편집
+
+```
+[root@localhost ~]# su - oracle
+
+[oracle@localhost ~]$ vi .bash_profile
+export ORACLE_BASE=/u01/app/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/11.2.0/xe
+export ORACLE_SID=XE
+export PATH=$PATH:$ORACLE_HOME/bin
+```
+
+## 3. 오라클 설치 파일 업로드
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/50af2333-c6f6-49a3-a0dc-acdb6040cca8)
+
+## 4. 오라클 설치
