@@ -65,7 +65,7 @@ ifdown-TeamPort  ifdown-post  ifup-Team      ifup-ipv6      ifup-routes  network
 
 ```
 
-설정 변경
+### 설정 변경
 
 ```
 [root@localhost network-scripts]# vi ifcfg-ens33
@@ -87,7 +87,7 @@ DEVICE=ens33
 ONBOOT=yes # <- 부팅 시 네트워크가 연결되도록
 ```
 
-리붓
+### 리붓
 
 ```
 [root@localhost network-scripts]# reboot
@@ -104,12 +104,13 @@ ONBOOT=yes # <- 부팅 시 네트워크가 연결되도록
 
 ```
 
-세션 세팅 & 접속
+### 세션 세팅 & 접속
 
 할당된 ip 입력, 기본 포트는 22<br/>
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/f85e3a40-9fad-439a-bd84-116a5ff45305)
 
+### 연결 완료
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/19ae59e6-b5a0-4d4a-8289-4fe0105c46d7)
 
-![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/5f093638-5693-4a5e-b231-78ed05b4a149)
 
 
