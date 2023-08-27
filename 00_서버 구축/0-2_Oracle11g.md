@@ -77,3 +77,9 @@ export PATH=$PATH:$ORACLE_HOME/bin
 
 [root@localhost admin]# vi tnsnames.ora
 ```
+
+```
+[root@localhost admin]# /etc/init.d/oracle-xe start
+
+Starting oracle-xe (via systemctl):                        [  OK  ]
+```
