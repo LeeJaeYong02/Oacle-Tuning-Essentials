@@ -52,3 +52,11 @@ export PATH=$PATH:$ORACLE_HOME/bin
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/50af2333-c6f6-49a3-a0dc-acdb6040cca8)
 
 ## 4. 오라클 설치
+
+```
+[root@localhost ~] # unzip oracle-xe-11.2.0-1.0.x86_64.rpm.zip
+[root@localhost ~] # cd Disk1/
+[root@localhost Disk1]# rpm -Uvh oracle-xe-11.2.0-1.0.x86_64.rpm
+```
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/4f965642-56b4-4e6a-a5c9-1b35ae3b4c7c)
