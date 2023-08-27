@@ -1,5 +1,14 @@
 # 0-2_Oracle11g
 
+## 0. Oracle 홈페이지 접속 및 설치 파일 다운로드
+
+### https://www.oracle.com/database/technologies/xe-prior-release-downloads.html 접속
+
+### Oracle Database 11gR2 Express Edition for Linux x64 Download
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/06052c5e-506b-4f1d-9f32-42e013c92fc0)
+
+
 ## 1. 의존 라이브러리 설치
 
 ### root 계정 접속 후
