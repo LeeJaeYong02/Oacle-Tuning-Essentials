@@ -120,4 +120,9 @@ SQL> select 1 from dual;
          1
 ```
 
+### 7. 외부 연결 
+
+![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/14255b90-dad8-441d-9d3d-260763886460)
+
+
 참고 https://seul96.tistory.com/419
