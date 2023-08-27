@@ -83,3 +83,30 @@ export PATH=$PATH:$ORACLE_HOME/bin
 
 Starting oracle-xe (via systemctl):                        [  OK  ]
 ```
+
+### 5. 방화벽 해제(필요시)
+
+```
+[root@localhost admin]# firewall-cmd --permanent --add-port=1515/tcp
+success
+[root@localhost admin]# firewall-cmd --reload
+success
+```
+
+### 6. 오라클 접속 테스트
+
+```
+[root@localhost admin]$ su - oracle
+암호:
+마지막 로그인: 일  8월 27 12:57:50 KST 2023 일시 pts/0
+
+[oracle@localhost ~]$ sqlplus "/as sysdba"
+
+SQL*Plus: Release 11.2.0.2.0 Production on Sun Aug 27 12:59:42 2023
+
+Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+```
