@@ -11,5 +11,7 @@ yum -y install glibc glibc-common glibc-devel glibc-headers gcc gcc-c++ libaio-d
 yum -y install libaio libgcc libstdc++ libstdc++ make sysstat unixODBC unixODBC-devel
 yum -y install unzip
 yum -y install compat-libstdc++-33.x86_64 binutils elfutils-libelf elfutils-libelf-devel
+yum install binutils compat-libcap1 compat-libstdc++-33 gcc gcc-c++ glibc glibc-devel ksh libgcc libstdc++ libstdc++-devel libaio libaio-devel make sysstat
+-> y 입력
 
 ```
