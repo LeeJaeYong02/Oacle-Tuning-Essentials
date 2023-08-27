@@ -69,7 +69,7 @@ export PATH=$PATH:$ORACLE_HOME/bin
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/3cae5445-ab20-4d26-8874-ee53f5a01f17)
 
 
-### ORACLE_HOME과 PORT번호, SID 등 확인
+### ORACLE_HOME과PORT번호,SID등확인
 
 ```
 [root@localhost init.d]# cd /u01/app/oracle/product/11.2.0/xe/network/admin/
@@ -124,6 +124,6 @@ SQL> select 1 from dual;
 
 ![image](https://github.com/LeeJaeYong02/Oacle-Tuning-Essentials/assets/66985977/f2e0374e-5a82-48b0-9dde-34024cd7fdaf)
 
-[ORACLE_HOME과 PORT번호, SID 등 확인](#oracle_home과-port번호,-sid-등-확인)
+[ORACLE_HOME과PORT번호,SID등확인](#oracle_home과port번호,sid등확인)
 
 참고 https://seul96.tistory.com/419
