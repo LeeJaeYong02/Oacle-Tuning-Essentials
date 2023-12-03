@@ -1,12 +1,9 @@
-### 두 개의 프로시저를 생성.
+-- GENERATE_ORD_BASE 프로시저는 주문 데이터를 위해 주문 임시 테이블에 주문 정보를 생성한다. 프로시저의 인자는 생성하려는 주문 수량과 COMMIT 단위이다.
+-- 예를 들어 프뢰저를 실행할 때 EXEC GENERATE_ORD_BASE(15000000, 10000)이라고 실행하면 1500만 건의 주문 기반 데이터를 만들고 1만 건 단위로 COMMIT 명령을 실행하라는 의미이다.
 
-GENERATE_ORD_BASE 프로시저는 주문 데이터를 위해 주문 임시 테이블에 주문 정보를 생성한다. 프로시저의 인자는 생성하려는 주문 수량과 COMMIT 단위이다.
-예를 들어 프뢰저를 실행할 때 EXEC GENERATE_ORD_BASE(15000000, 10000)이라고 실행하면 1500만 건의 주문 기반 데이터를 만들고 1만 건 단위로 COMMIT 명령을 실행하라는 의미이다.
+-- INSERT_ORD_ITEM 프로시저는 GENERATE_ORD_BASE와 마찬가지로 생성하려는 주문 수량과 COMMIT 단위이다. 
+-- EXEC INSERT_ORD_ITEM)15000000, 10000) 이라고 명령을 주면 1500만 건의 주문 데이터에 대한 주문 상품 데이터를 만들고 1만 건 단위로 COMMIT 명령을 실행한다.
 
-INSERT_ORD_ITEM 프로시저는 GENERATE_ORD_BASE와 마찬가지로 생성하려는 주문 수량과 COMMIT 단위이다. 
-EXEC INSERT_ORD_ITEM)15000000, 10000) 이라고 명령을 주면 1500만 건의 주문 데이터에 대한 주문 상품 데이터를 만들고 1만 건 단위로 COMMIT 명령을 실행한다.
-
-```
 
 CREATE OR REPLACE PROCEDURE DEV.GENERATE_ORD_BASE (P_GEN_AMOUNT NUMBER, P_COMMIT_NUM NUMBER)
 IS
@@ -205,4 +202,3 @@ END;
 
 
 
-```

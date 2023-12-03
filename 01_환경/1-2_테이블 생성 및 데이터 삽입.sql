@@ -1,7 +1,3 @@
-### 필요한 테이블을 생성하고 샘플 데이터를 생성한다.
-
-
-```
 
 DROP TABLE DEV.ORD_TEMP PURGE;
 CREATE TABLE DEV.ORD_TEMP (
@@ -702,6 +698,3 @@ INSERT INTO DEV.COM_CD (UNI_CD,UNI_CD_NM,CL_UNI_CD,SEQ,CD_DESC,REG_ID,REG_DTS,MO
 
 COMMIT;
 
-
-
-```
