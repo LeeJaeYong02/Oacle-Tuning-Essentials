@@ -1,6 +1,3 @@
-실습을 위한 테이블스페이스, 유저 생성 및 권한 설정
-
-```
 
 /*
 1. 테이블스페이스 생성
@@ -34,9 +31,6 @@ GRANT connect, RESOURCE, DBA TO dev;    --> 모든 권한 주기
 ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;    -- 비밀번호 만료기간을 무제한으로 변경(필요시 실행)
 
 
-```
-
-```
 -- 전체 테이블 스페이스 경로 및 용량 조회
 SELECT
 A.TABLESPACE_NAME "테이블스페이스명",
@@ -64,4 +58,3 @@ FROM
 )B
 WHERE A.TABLESPACE_NAME=B.TABLESPACE_NAME
 AND A.FILE_ID = B.FILE_ID;
-```
